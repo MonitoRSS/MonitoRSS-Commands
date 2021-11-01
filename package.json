@@ -14,18 +14,18 @@
   "dependencies": {
     "@discordjs/builders": "^0.8.2",
     "@discordjs/rest": "0.1.0-canary.0",
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
     "class-validator": "^0.13.1",
     "discord-api-types": "^0.24.0",
     "discord.js": "^13.3.0",
-    "dotenv": "^10.0.0",
-    "eslint-config-airbnb-typescript": "^14.0.1"
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
     "eslint-plugin-import": "^2.25.2",
     "jest": "^27.3.1",
     "nodemon": "^2.0.14",
