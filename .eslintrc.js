@@ -6,7 +6,8 @@ module.exports = {
   },
   ignorePatterns: [
     '.eslintrc.js',
-    "jest.config.js"
+    "jest.config.js",
+    "build/**/*"
   ],
   plugins: [
     '@typescript-eslint',
@@ -20,6 +21,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'curly': 'error',
     "eol-last": ["error"],
+    "max-len": ["error", { "code": 100 }],
     "padding-line-between-statements": [
       "error",
       {
